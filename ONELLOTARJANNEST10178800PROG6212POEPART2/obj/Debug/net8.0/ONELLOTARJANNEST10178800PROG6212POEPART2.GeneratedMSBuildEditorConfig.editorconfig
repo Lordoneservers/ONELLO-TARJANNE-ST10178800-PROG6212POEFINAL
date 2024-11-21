@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/HR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,12 +74,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/SubmitClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWJtaXRDbGFpbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/Track.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/HR/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/HR/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/AccessDenied.cshtml]
@@ -90,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/HR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhSLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -100,6 +120,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZ25VcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/Track.cshtml]

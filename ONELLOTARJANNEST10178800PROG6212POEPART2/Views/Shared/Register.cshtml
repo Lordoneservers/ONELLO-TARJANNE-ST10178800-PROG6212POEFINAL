@@ -10,6 +10,14 @@
         <form asp-action="Register" method="post" id="registerForm">
             <input type="hidden" asp-for="Role" />
 
+            <!-- Validation Summary -->
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @Html.ValidationSummary(true)
+                </div>
+            }
+
             <div>
                 <label asp-for="Email"></label>
                 <input asp-for="Email" />
@@ -31,13 +39,19 @@
             <div>
                 <label asp-for="FirstName"></label>
                 <input asp-for="FirstName" />
+                <span asp-validation-for="FirstName"></span>
             </div>
 
             <div>
                 <label asp-for="LastName"></label>
                 <input asp-for="LastName" />
+                <span asp-validation-for="LastName"></span>
             </div>
-
+            <div>
+                <label asp-for="PhoneNumber"></label>
+                <input asp-for="PhoneNumber" />
+                <span asp-validation-for="PhoneNumber"></span>
+            </div>
             <button type="submit">Register</button>
             <small class="form-text text-muted">
                 <h5>Password Requirements</h5>
@@ -51,8 +65,3 @@
         </form>
     </div>
 </div>
-
-<div class="alert alert-danger">
-    @Html.ValidationSummary(true)
-</div>
-

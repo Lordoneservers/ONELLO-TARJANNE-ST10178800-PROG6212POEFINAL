@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ONELLOTARJANNEST10178800PROG6212POEPART2.Models.ApplicationUser>
+
+<h2>Lecturers</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lecturer in Model)
+        {
+            <tr>
+                <td>@lecturer.FirstName @lecturer.LastName</td>
+                <td>@lecturer.Email</td>
+                <td>@lecturer.PhoneNumber</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@lecturer.Id" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

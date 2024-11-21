@@ -2,18 +2,18 @@
     ViewData["Title"] = "Profile";
 }
 <h1>@ViewData["Title"]</h1>
+
+<!-- Lecturer Role -->
 @if (User.IsInRole("Lecturer"))
 {
-    <form asp-area="" asp-controller="Home" asp-action="Post" method="post">
+    <form asp-controller="Home" asp-action="Post" method="post">
         <button class="form-btn" type="submit">
             Lecturer Dashboard
         </button>
     </form>
 }
-else
-{
-    <p2>You are not registered.</p2>
-}
+
+<!-- Manager Role -->
 @if (User.IsInRole("Manager"))
 {
     <form asp-controller="Claims" asp-action="Track" method="get">
@@ -22,8 +22,20 @@ else
         </button>
     </form>
 }
-else
+
+<!-- HR Role -->
+@if (User.IsInRole("HR"))
 {
+    <form asp-controller="HR" asp-action="Index" method="get">
+        <button class="form-btn" type="submit">
+            Human Resources Dashboard
+        </button>
+    </form>
 }
-</center>
+
+<!-- Not logged in or no roles -->
+@if (!User.Identity.IsAuthenticated)
+{
+    <h1>YOU ARE NOT REGISTERED OR LOGGED IN</h1>
+}
 

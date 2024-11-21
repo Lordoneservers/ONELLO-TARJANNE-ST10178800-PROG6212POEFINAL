@@ -22,6 +22,11 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
 
         [Required]
         public string Role { get; set; }
+
+        // Add phone number
+        [Required]
+        [Phone]
+        public string PhoneNumber { get; set; }
     }
 }
 

@@ -45,6 +45,11 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "HR")]
+        public IActionResult HR()
+        {
+            return View();
+        }
         [AllowAnonymous]  // Allow anonymous access to the Access Denied page
         public IActionResult AccessDenied()
         {

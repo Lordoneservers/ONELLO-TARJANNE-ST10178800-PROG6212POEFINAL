@@ -41,9 +41,11 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
+            // Check if the email is already registered
             var existingUser = await _userManager.FindByEmailAsync(model.Email);
             if (existingUser != null)
             {
+                // Add an error to ModelState if the user already exists
                 ModelState.AddModelError(string.Empty, "This email is already registered.");
                 return View(model); // Return the view with the error
             }
@@ -53,12 +55,14 @@ public class AccountController : Controller
                 UserName = model.Email,
                 Email = model.Email,
                 FirstName = model.FirstName,
-                LastName = model.LastName
+                LastName = model.LastName,
+                PhoneNumber = model.PhoneNumber // Set the phone number here
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
+                // Assign role based on form
                 var roleResult = await _userManager.AddToRoleAsync(user, model.Role);
                 if (!roleResult.Succeeded)
                 {
@@ -66,6 +70,7 @@ public class AccountController : Controller
                     return View(model);
                 }
 
+                // Sign in the user
                 await _signInManager.SignInAsync(user, isPersistent: false);
                 return RedirectToAction("Index", "Home");
             }
@@ -88,7 +93,7 @@ public class AccountController : Controller
     public async Task<IActionResult> Logout()
     {
         await _signInManager.SignOutAsync();
-        return RedirectToAction("Index", "Home"); // Redirect to home page after logout
+        return RedirectToAction("Dashboard", "Home"); // Redirect to home page after logout
     }
 
     // POST: Login
