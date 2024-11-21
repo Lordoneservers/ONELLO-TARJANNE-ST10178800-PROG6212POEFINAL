@@ -1,0 +1,82 @@
+@model IEnumerable<ONELLOTARJANNEST10178800PROG6212POEPART2.Models.Claim>
+
+@{
+    ViewData["Title"] = "Track Claims";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Add Status Filter Dropdown -->
+<div class="form-group mb-3">
+    <label for="statusFilter" style="color: white;">Filter by Status:</label>
+    <select id="statusFilter" class="form-control">
+        <option value="">All</option>
+        <option value="Pending">Pending</option>
+        <option value="Approved">Approved</option>
+        <option value="Rejected">Rejected</option>
+    </select>
+</div>
+
+<table class="table" id="claimsTable">
+    <!-- Your existing table header -->
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer ID</th>
+            <th>Name</th>
+            <th>Rate</th>
+            <th>Hours Worked</th>
+            <th>Claim Amount</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Claim Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var claim in Model)
+            {
+                <tr class="claim-row">
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.LecturerId</td>
+                    <td>@claim.Name</td>
+                    <td>@claim.Rate</td>
+                    <td>@claim.Hours</td>
+                    <td>@claim.ClaimAmount</td>
+                    <td>@claim.Description</td>
+                    <td class="claim-status">@claim.ClaimStatus</td>
+                    <td>@claim.ClaimDate.ToShortDateString()</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="9">No claims available.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#statusFilter').on('change', function () {
+                var selectedStatus = $(this).val().toLowerCase();
+
+                $('.claim-row').each(function () {
+                    var rowStatus = $(this).find('.claim-status').text().toLowerCase();
+                    if (selectedStatus === '' || rowStatus === selectedStatus) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+
+

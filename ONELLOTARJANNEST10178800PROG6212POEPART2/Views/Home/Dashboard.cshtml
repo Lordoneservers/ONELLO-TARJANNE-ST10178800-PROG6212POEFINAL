@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+<h1>@ViewData["Title"]</h1>
+@if (User.IsInRole("Lecturer"))
+{
+    <form asp-area="" asp-controller="Home" asp-action="Post" method="post">
+        <button class="form-btn" type="submit">
+            Lecturer Dashboard
+        </button>
+    </form>
+}
+else
+{
+    <p2>You are not registered.</p2>
+}
+@if (User.IsInRole("Manager"))
+{
+    <form asp-controller="Claims" asp-action="Track" method="get">
+        <button class="form-btn" type="submit">
+            Academic Managers/Programme Coordinator Dashboard
+        </button>
+    </form>
+}
+else
+{
+}
+</center>
+

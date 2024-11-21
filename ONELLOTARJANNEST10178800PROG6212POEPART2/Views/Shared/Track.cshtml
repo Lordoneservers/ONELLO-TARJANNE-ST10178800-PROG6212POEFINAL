@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ONELLOTARJANNEST10178800PROG6212POEPART2.Models.Claim>
+
+@{
+    ViewData["Title"] = "Track Claims";//Claims dashboard where admin reject and accept claims
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer ID</th>
+            <th>Name</th>
+            <th>Rate</th>
+            <th>Hours Worked</th>
+            <th>Claim Amount</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Claim Date</th>
+            <th>Action</th>
+            <th>Document</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.LecturerId</td>
+                    <td>@claim.Name</td>
+                    <td>@claim.Rate</td>
+                    <td>@claim.Hours</td>
+                    <td>@claim.ClaimAmount</td>
+                    <td>@claim.Description</td>
+                    <td>@claim.ClaimStatus</td>
+                    <td>@claim.ClaimDate.ToShortDateString()</td>
+                    <td>
+                        <form asp-controller="Claims" asp-action="ApproveClaim" method="post" style="display:inline-block;">
+                            <input type="hidden" name="claimId" value="@claim.ClaimId" />
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                        <form asp-controller="Claims" asp-action="RejectClaim" method="post" style="display:inline-block;">
+                            <input type="hidden" name="claimId" value="@claim.ClaimId" />
+                            <button type="submit" class="btn btn-danger">Reject</button>
+                        </form>
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(claim.UploadedFilePath))
+                        {
+                            <a href="@Url.Action("DownloadFile", "Claims", new { filePath = claim.UploadedFilePath })">
+                                Download File
+                            </a>
+                        }
+                        else
+                        {
+                            <span>No file uploaded</span>
+                        }
+                    </td>
+
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6">No pending claims available.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form asp-controller="Claims" asp-action="ClaimView" method="get">
+    <button class="form-btn" type="submit">View All Claims</button>
+</form>

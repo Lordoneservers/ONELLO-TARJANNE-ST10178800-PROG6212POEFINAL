@@ -1,0 +1,123 @@
+-- Question3.1
+CREATE TABLE Patient(
+PatientID INT  PRIMARY KEY,
+  PatientName varchar(50),
+    PatientSurname varchar(50),
+    PatientDOB date
+);
+-- Question3.2
+CREATE TABLE Doctor(
+DoctorID INT  PRIMARY KEY,
+ DoctorName varchar(50),
+   DoctorSurname varchar(50)
+);
+-- Question 3.3
+CREATE TABLE Appointments(
+AppointmentID INT  PRIMARY KEY,
+PatientID INT,
+DoctorID INT,
+AppointmentDate date,
+AppointmentTime time,
+AppointmentDuration INT,
+foreign key (PatientID) references Patient(PatientID),
+foreign key (DoctorID) references Doctor(DoctorID)
+);
+-- Question 3.4
+INSERT INTO Patient(PatientID,PatientName,PatientSurname,PatientDOB)
+values("1","Debbie","Thehart","1980-03-17"),
+("2","Thomas","Duncan","1976-08-12");
+INSERT INTO Doctor(DoctorID,DoctorName,DoctorSurname)
+values("1","Zintle","Nukan"),
+("2","Ravi","Maharaj");
+
+INSERT INTO appointments(AppointmentID,AppointmentDate,AppointmentTime,AppointmentDuration)
+values
+("1","2024-01-15","9:00","15"),
+("2","2024-01-18","15:00","30"),
+("3","2024-01-20","10:00","15"),
+("4","2024-01-21","11:00","15");
+
+
+-- Question 3.5                                                                                        
+SELECT * FROM appointments
+WHERE AppointmentDate BETWEEN '2024-01-16' AND '2024-01-20';
+-- Question 3.6
+SELECT 
+    d.DoctorName,
+    d.DoctorSurname,
+    COUNT(a.AppointmentID) AS TotalAppointments
+FROM 
+    Doctor d
+JOIN 
+    Appointments a ON d.DoctorID = a.DoctorID
+GROUP BY 
+    d.DoctorName, d.DoctorSurname
+ORDER BY 
+    TotalAppointments DESC;
+-- Question 3.7
+SELECT 
+    AppointmentID,
+    PatientID,
+    DoctorID,
+    AppointmentDate,
+    AppointmentTime,
+    AppointmentDuration
+FROM 
+    Appointments
+ORDER BY 
+    AppointmentDate DESC, 
+    AppointmentTime DESC;
+
+
+-- Question 3.8
+CREATE VIEW DoctorsAppointments AS
+SELECT 
+    a.AppointmentID,
+    a.PatientID,
+    p.PatientName,
+    p.PatientSurname,
+    a.DoctorID,
+    d.DoctorName,
+    d.DoctorSurname,
+    a.AppointmentDate,
+    a.AppointmentTime,
+    a.AppointmentDuration
+FROM 
+    Appointments a
+JOIN 
+    Patient p ON a.PatientID = p.PatientID
+JOIN 
+    Doctor d ON a.DoctorID = d.DoctorID
+WHERE 
+    a.DoctorID = 2
+ORDER BY 
+    p.PatientSurname ASC;
+
+Question 3.9
+CREATE PROCEDURE get_appointments
+    @appointmentDate DATE
+AS
+BEGIN
+    SELECT 
+        a.AppointmentID,
+        a.PatientID,
+        p.PatientName,
+        p.PatientSurname,
+        a.DoctorID,
+        d.DoctorName,
+        d.DoctorSurname,
+        a.AppointmentDate,
+        a.AppointmentTime,
+        a.AppointmentDuration
+    FROM 
+        Appointments a
+    JOIN 
+        Patient p ON a.PatientID = p.PatientID
+    JOIN 
+        Doctor d ON a.DoctorID = d.DoctorID
+    WHERE 
+        a.AppointmentDate = @appointmentDate
+    ORDER BY 
+        a.AppointmentTime ASC;
+END
+

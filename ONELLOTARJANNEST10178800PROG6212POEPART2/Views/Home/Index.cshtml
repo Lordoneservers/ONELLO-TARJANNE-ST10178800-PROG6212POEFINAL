@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="bgpurple">
+    <div class="cardhom">
+        <h1>Welcome to LecturerHub!</h1>
+        <p>We’re delighted to have you here. This is your gateway to managing your claims as an independant contractor lecturer.Here you can:</p>
+        <ul>
+            <li><strong>Submit a Claim</strong></li>
+            <li><strong>Track Your Claim</strong></li>
+            <li><strong>Get Support:</strong> Reach out to our team for any assistance or queries at LHsupport@outlook.com</li>
+        </ul>
+        <p>Thank you for choosing us. We're committed to providing the best support and ensuring your experience is smooth and efficient.</p>
+    </div>
+</div>
+
+<h2>Register as:</h2>
+<a asp-action="RegisterLecturer" asp-controller="Account" class="btn btn-primary">Lecturer</a>
+<a asp-action="RegisterManager" asp-controller="Account" class="btn btn-secondary">Manager</a>
+<a asp-action="RegisterHR" asp-controller="Account" class="btn btn-danger">HR</a>

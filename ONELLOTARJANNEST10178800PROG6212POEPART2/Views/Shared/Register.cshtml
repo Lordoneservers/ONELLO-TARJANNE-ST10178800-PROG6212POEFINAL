@@ -1,0 +1,58 @@
+﻿@model ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers.RegisterViewModel
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="cardi">
+    <div class="card-header">
+        <h2>Register as @Model.Role</h2>
+    </div>
+    <div class="card-body">
+        <form asp-action="Register" method="post" id="registerForm">
+            <input type="hidden" asp-for="Role" />
+
+            <div>
+                <label asp-for="Email"></label>
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div>
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" />
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <div>
+                <label asp-for="ConfirmPassword"></label>
+                <input asp-for="ConfirmPassword" type="password" />
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <div>
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" />
+            </div>
+
+            <div>
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" />
+            </div>
+
+            <button type="submit">Register</button>
+            <small class="form-text text-muted">
+                <h5>Password Requirements</h5>
+                <ul>
+                    <li>Minimum length: 8 characters</li>
+                    <li>At least one uppercase letter</li>
+                    <li>At least one lowercase letter</li>
+                    <li>At least one number</li>
+                </ul>
+            </small>
+        </form>
+    </div>
+</div>
+
+<div class="alert alert-danger">
+    @Html.ValidationSummary(true)
+</div>
+

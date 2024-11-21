@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ONELLOTARJANNEST10178800PROG6212POEPART2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ONELLOTARJANNEST10178800PROG6212POEPART2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\Images\\rudy-issa-fnmu65GYnoU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\rudy-issa-fnmu65GYnoU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\Images\\tanya-paquet-OLdMEEnPdnU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\tanya-paquet-OLdMEEnPdnU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\Images\\tuyen-vo-7o7DqXJArf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\tuyen-vo-7o7DqXJArf4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\Images\\wojciech-paczes-0wnWss_akE8-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\wojciech-paczes-0wnWss_akE8-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\0a4814767f045ae75c1b3c86c380793a.mp4",
+      "PackagePath": "staticwebassets\\uploads\\0a4814767f045ae75c1b3c86c380793a.mp4"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\0cfdf1718f757a519b05097dcaeb9a45.png",
+      "PackagePath": "staticwebassets\\uploads\\0cfdf1718f757a519b05097dcaeb9a45.png"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\0f67f3b3-db47-4d38-b720-fabb3130fd38_how do I integrate these functions.txt",
+      "PackagePath": "staticwebassets\\uploads\\0f67f3b3-db47-4d38-b720-fabb3130fd38_how do I integrate these functions.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\16 Sep 2023 - 16 Oct 2023 (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\16 Sep 2023 - 16 Oct 2023 (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\16 Sep 2023 - 16 Oct 2023.pdf",
+      "PackagePath": "staticwebassets\\uploads\\16 Sep 2023 - 16 Oct 2023.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\5252e6d6-90f0-4861-8eca-7ee8a7659642_how do I integrate these functions.txt",
+      "PackagePath": "staticwebassets\\uploads\\5252e6d6-90f0-4861-8eca-7ee8a7659642_how do I integrate these functions.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\CLDV6211 Support (1) (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\CLDV6211 Support (1) (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\CLDV6211 Support (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\CLDV6211 Support (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\CLDV6212POE.docx",
+      "PackagePath": "staticwebassets\\uploads\\CLDV6212POE.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\How to Migrate Database using EFCore.pdf",
+      "PackagePath": "staticwebassets\\uploads\\How to Migrate Database using EFCore.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ICE4 (1).docx",
+      "PackagePath": "staticwebassets\\uploads\\ICE4 (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ICE4.docx",
+      "PackagePath": "staticwebassets\\uploads\\ICE4.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ICNS_Schaar_AirportStakeholders.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ICNS_Schaar_AirportStakeholders.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\IIE VC BCAD0701 Year 2 Programme Assessment Schedule 2024 V8.pdf",
+      "PackagePath": "staticwebassets\\uploads\\IIE VC BCAD0701 Year 2 Programme Assessment Schedule 2024 V8.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\Normalisation cheat sheet.docx",
+      "PackagePath": "staticwebassets\\uploads\\Normalisation cheat sheet.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE NWEG5122 ICE 07 SOLUTION.docx",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE NWEG5122 ICE 07 SOLUTION.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 1.docx",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 1.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 CLDV6211 POE PART 2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 CLDV6211 POE PART 2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 DBAS6211 EXAM QUESTION 3.txt",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 DBAS6211 EXAM QUESTION 3.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 SOEN6222 ICE TASK 4.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 SOEN6222 ICE TASK 4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 SOEN6222 POE PART 1.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ONELLO TARJANNE ST10178800 SOEN6222 POE PART 1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\PRSE6212 ASSIGNMENT SOLUTION.docx",
+      "PackagePath": "staticwebassets\\uploads\\PRSE6212 ASSIGNMENT SOLUTION.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\PRSE6212Eb_THE (1) (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\PRSE6212Eb_THE (1) (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\PRSE6212Eb_THE (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\PRSE6212Eb_THE (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\PRSE6212Eb_THE.pdf",
+      "PackagePath": "staticwebassets\\uploads\\PRSE6212Eb_THE.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ProductTbl.txt",
+      "PackagePath": "staticwebassets\\uploads\\ProductTbl.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ROP - JR - Jr birthday card - 24-11-14 (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\ROP - JR - Jr birthday card - 24-11-14 (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ROP - JR - Jr birthday card - 24-11-14.pdf",
+      "PackagePath": "staticwebassets\\uploads\\ROP - JR - Jr birthday card - 24-11-14.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\RUBRIC 2 Onello Tarjanne .docx",
+      "PackagePath": "staticwebassets\\uploads\\RUBRIC 2 Onello Tarjanne .docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\Stream Analytics.docx",
+      "PackagePath": "staticwebassets\\uploads\\Stream Analytics.docx"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\abc retailers loyalty programme  contract  (3).pdf",
+      "PackagePath": "staticwebassets\\uploads\\abc retailers loyalty programme  contract  (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\download (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\download (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\f6986e38-6c33-4d47-ac14-96ed028d58a9_ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\f6986e38-6c33-4d47-ac14-96ed028d58a9_ONELLO TARJANNE ST10178800 ADDB7311 PRACTICAL ASSIGNMENT 2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\how do I integrate these functions.txt",
+      "PackagePath": "staticwebassets\\uploads\\how do I integrate these functions.txt"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\p",
+      "PackagePath": "staticwebassets\\uploads"
+    },
+    {
+      "Id": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\scan6076[245].pdf",
+      "PackagePath": "staticwebassets\\uploads\\scan6076[245].pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ONELLOTARJANNEST10178800PROG6212POEPART2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ONELLOTARJANNEST10178800PROG6212POEPART2.props",
+      "PackagePath": "build\\ONELLOTARJANNEST10178800PROG6212POEPART2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ONELLOTARJANNEST10178800PROG6212POEPART2.props",
+      "PackagePath": "buildMultiTargeting\\ONELLOTARJANNEST10178800PROG6212POEPART2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ONELLOTARJANNEST10178800PROG6212POEPART2.props",
+      "PackagePath": "buildTransitive\\ONELLOTARJANNEST10178800PROG6212POEPART2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

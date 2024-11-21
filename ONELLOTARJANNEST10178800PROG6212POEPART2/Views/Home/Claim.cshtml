@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Claims";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="card">
+    <div class="card2">
+        <p>
+            Welcome to the Claims Page!
+            <br />
+            We understand that filing a claim can be overwhelming, but we're here to make the process as smooth as possible. On this page, you can easily submit your claim, track its progress, and get support if you need assistance. Whether it's related to insurance, warranty, or any other service, we're committed to resolving your claims quickly.
+            <br />
+            How to Submit/track claim:
+            <br />
+            Submit a Claim: Begin by clicking the button and filling out the claim form with all the necessary details. Please provide accurate and complete information to avoid delays.
+            Track Your Claim: After submitting your claim, you will receive a unique reference number. Use this to track your claim's status at any time.
+            <br />
+
+        </p>
+    </div>
+
+</div>
+<br />
+<form asp-area="" asp-controller="Home" asp-action="Post" method="post">
+    <button type="submit">
+        Post/Track Claims
+        <div class="arrow-wrapper">
+            <div class="arrow"></div>
+        </div>
+    </button>
+</form>

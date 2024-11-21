@@ -1,0 +1,57 @@
+@model ONELLOTARJANNEST10178800PROG6212POEPART2.Models.Claim
+
+@{
+    ViewData["Title"] = "Post Claims";//Claims Form
+}
+
+<h1>@ViewData["Title"]</h1>
+<div class="cardi">
+    <div class="card-header">
+        <h2>Claim Form</h2>
+    </div>
+    <div class="card-body">
+        <form asp-controller="Claims" asp-action="SubmitClaim" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="LecturerId">Lecturer Id:</label>
+                <input asp-for="LecturerId" type="number" class="form-control" placeholder="Enter your ID" required />
+                <span asp-validation-for="LecturerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name">Name:</label>
+                <input asp-for="Name" class="form-control" placeholder="Enter your name" required />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rate">Rate:</label>
+                <input asp-for="Rate" type="number" class="form-control" placeholder="Enter your rate" required />
+                <span asp-validation-for="Rate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hours">Hours Worked:</label>
+                <input asp-for="Hours" type="number" class="form-control" placeholder="Enter hours worked" required />
+                <span asp-validation-for="Hours" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="ClaimDate">Claim Date</label>
+                <input type="date" id="ClaimDate" name="ClaimDate" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="uploadedFile">Upload Document:</label>
+                <input type="file" id="uploadedFile" name="uploadedFile" class="form-control" accept=".pdf,.docx,.txt" />
+                <span asp-validation-for="UploadedFilePath" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description">Description:</label>
+                <textarea asp-for="Description" class="form-control" placeholder="Describe the claim" rows="4"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit Claim</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
