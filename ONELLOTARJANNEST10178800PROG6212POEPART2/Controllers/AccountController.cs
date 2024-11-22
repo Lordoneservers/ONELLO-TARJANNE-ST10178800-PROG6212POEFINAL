@@ -56,7 +56,7 @@ public class AccountController : Controller
                 Email = model.Email,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                PhoneNumber = model.PhoneNumber // Set the phone number here
+                PhoneNumber = model.PhoneNumber 
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);

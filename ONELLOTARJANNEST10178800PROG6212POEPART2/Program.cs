@@ -13,7 +13,11 @@ builder.Services.AddDbContext<AddDbContext>(options => options.UseSqlServer(buil
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()  
     .AddDefaultTokenProviders();
-
+// Configure cookie settings to specify the access denied path
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/Home/AccessDenied"; // Adjust the path as necessary
+});
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
