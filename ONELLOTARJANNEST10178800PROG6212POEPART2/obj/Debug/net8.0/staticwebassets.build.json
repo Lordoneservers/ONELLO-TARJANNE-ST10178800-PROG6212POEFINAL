@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M+qaCdUDEXIIGWw2/nqiIn+gK9g8cXwD93G1AF6/6hQ=",
+  "Hash": "cI8vTIem6nqlOfP3cfcSbGoF5R6Z93Cc5gum8xnGma8=",
   "Source": "ONELLOTARJANNEST10178800PROG6212POEPART2",
   "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
   "Mode": "Default",
@@ -1366,6 +1366,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\16 Sep 2023 - 16 Oct 2023.pdf"
     },
     {
+      "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\20mb.pdf",
+      "SourceId": "ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\",
+      "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "RelativePath": "uploads/20mb.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\20mb.pdf"
+    },
+    {
       "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\5252e6d6-90f0-4861-8eca-7ee8a7659642_how do I integrate these functions.txt",
       "SourceId": "ONELLOTARJANNEST10178800PROG6212POEPART2",
       "SourceType": "Discovered",
@@ -1402,6 +1421,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\abc retailers loyalty programme  contract  (3).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ApprovedClaimsReport (3).pdf",
+      "SourceId": "ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\",
+      "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "RelativePath": "uploads/ApprovedClaimsReport (3).pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ApprovedClaimsReport (3).pdf"
     },
     {
       "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\CLDV6211 Support (1) (1).docx",
@@ -1820,6 +1858,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\p"
+    },
+    {
+      "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\p9hal_922.pdf",
+      "SourceId": "ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\",
+      "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "RelativePath": "uploads/p9hal_922.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\p9hal_922.pdf"
     },
     {
       "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ProductTbl.txt",

@@ -18,6 +18,11 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
         [HttpPost]
         public async Task<IActionResult> SubmitClaim(Claim claim, IFormFile uploadedFile)
         {
+            if (claim == null)
+            {
+                claim = new Claim();
+            }
+
             // Validation of  numeric values to ensure they are not negative
             if (claim.LecturerId < 0)
             {
@@ -72,13 +77,14 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
                 ModelState.AddModelError("UploadedFilePath", "Only PDF, DOCX, and TXT files are allowed.");
                 return View("post", claim);
             }
-
-
-            if (uploadedFile.Length > 30 * 1024 * 1024) // 30MB limit for files
+            if (uploadedFile.Length > 20 * 1024 * 1024) // 20MB limit for files
             {
-                ModelState.AddModelError("UploadedFilePath", "File size must not exceed 30MB.");
-                return View("post", claim);
+                ModelState.AddModelError("UploadedFilePath", "File size must not exceed 20MB.");
+                return View("post", claim); // Return the view with the claim and the error
             }
+
+
+
 
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
