@@ -10,7 +10,7 @@
         <form asp-action="Register" method="post" id="registerForm">
             <input type="hidden" asp-for="Role" />
 
-            <!-- Validation Summary -->
+            
             @if (!ViewData.ModelState.IsValid)
             {
                 <div class="alert alert-danger">

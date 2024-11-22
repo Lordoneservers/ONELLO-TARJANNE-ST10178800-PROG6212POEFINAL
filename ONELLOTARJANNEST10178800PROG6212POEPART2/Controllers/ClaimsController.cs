@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ONELLOTARJANNEST10178800PROG6212POEPART2.Data;
 using ONELLOTARJANNEST10178800PROG6212POEPART2.Models;
 using System.Threading.Tasks;
@@ -94,6 +95,42 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
             // Redirect to the success page
             return RedirectToAction("ClaimSuccess", "Home");
         }
+       
+
+        [HttpPost]
+        public IActionResult DownloadApprovedClaimsPdf()
+        {
+            var approvedClaims = _context.Claims.Where(c => c.ClaimStatus == "Approved").ToList();
+            var totalAmount = approvedClaims.Sum(c => c.ClaimAmount);
+
+            using var document = new PdfSharp.Pdf.PdfDocument();
+            var page = document.AddPage();
+            var graphics = PdfSharp.Drawing.XGraphics.FromPdfPage(page);
+            var font = new PdfSharp.Drawing.XFont("Arial", 12);
+
+            int y = 40; // Starting y-coordinate
+            graphics.DrawString("Approved Claims Report", font, PdfSharp.Drawing.XBrushes.Black, 40, y);
+
+            y += 20;
+            graphics.DrawString("Claim ID | Lecturer ID | Name | Hours | Rate | Claim Amount", font, PdfSharp.Drawing.XBrushes.Black, 40, y);
+
+            foreach (var claim in approvedClaims)
+            {
+                y += 20;
+                graphics.DrawString(
+                    $"{claim.ClaimId} | {claim.LecturerId} | {claim.Name} | {claim.Hours} | {claim.Rate} | {claim.ClaimAmount}",
+                    font, PdfSharp.Drawing.XBrushes.Black, 40, y);
+            }
+
+            y += 40;
+            graphics.DrawString($"Total Amount: {totalAmount}", font, PdfSharp.Drawing.XBrushes.Black, 40, y);
+
+            var stream = new MemoryStream();
+            document.Save(stream, false);
+            stream.Position = 0;
+            return File(stream, "application/pdf", "ApprovedClaimsReport.pdf");
+        }
+
 
         ///Download file method
         [HttpGet]

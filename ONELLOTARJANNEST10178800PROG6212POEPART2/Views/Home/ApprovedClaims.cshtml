@@ -1,0 +1,9 @@
+﻿<h1> HR CLAIM MENU</h1>
+<form asp-controller="Claims" asp-action="ClaimView" method="get">
+    <button class="form-btn" type="submit">View All Claims</button>
+</form>
+<br />
+
+<form asp-controller="Claims" asp-action="DownloadApprovedClaimsPdf" method="post">
+    <button type="submit" class="form-btn">Download Approved Claims</button>
+</form>

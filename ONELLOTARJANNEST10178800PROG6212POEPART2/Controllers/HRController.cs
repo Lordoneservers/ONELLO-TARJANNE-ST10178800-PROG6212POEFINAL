@@ -50,7 +50,7 @@ public class HRController : Controller
         return View(lecturer);
     }
 
-    // Save the edited Lecturer details
+    
     [HttpPost]
     [Authorize(Roles = "HR")]
     public async Task<IActionResult> Edit(ApplicationUser lecturer)

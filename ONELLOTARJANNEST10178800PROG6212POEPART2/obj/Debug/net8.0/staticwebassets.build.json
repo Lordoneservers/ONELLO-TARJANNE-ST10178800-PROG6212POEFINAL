@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nGUQQukpJVCogx3JBHGVfoJV/D9Ivs8u5sniiwoSMwc=",
+  "Hash": "M+qaCdUDEXIIGWw2/nqiIn+gK9g8cXwD93G1AF6/6hQ=",
   "Source": "ONELLOTARJANNEST10178800PROG6212POEPART2",
   "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
   "Mode": "Default",
@@ -1744,6 +1744,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\ONELLO TARJANNE ST10178800 DBAS6211 EXAM QUESTION 3.txt"
+    },
+    {
+      "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 PROG6212 POE PART 2.pdf",
+      "SourceId": "ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\",
+      "BasePath": "_content/ONELLOTARJANNEST10178800PROG6212POEPART2",
+      "RelativePath": "uploads/ONELLO TARJANNE ST10178800 PROG6212 POE PART 2.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ONELLO TARJANNE ST10178800 PROG6212 POE PART 2.pdf"
     },
     {
       "Identity": "C:\\Users\\travi\\source\\repos\\ONELLOTARJANNEST10178800PROG6212POEPART2\\ONELLOTARJANNEST10178800PROG6212POEPART2\\wwwroot\\uploads\\ONELLO TARJANNE ST10178800 SOEN6222 ICE TASK 4.pdf",

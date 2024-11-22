@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\travi\source\repos\ONELLOTARJANNEST10178800PROG6212POEPART2\ONELLOTARJANNEST10178800PROG6212POEPART2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/ApprovedClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHByb3ZlZENsYWltcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/Claim.cshtml]

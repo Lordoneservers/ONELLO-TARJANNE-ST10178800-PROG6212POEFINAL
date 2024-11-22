@@ -30,7 +30,7 @@
                         </li>
                     </ul>
 
-                    <!-- Authentication Links -->
+                    
                     <ul class="navbar-nav ms-auto">
                         @using Microsoft.AspNetCore.Identity
                         @inject SignInManager<ApplicationUser> SignInManager
@@ -38,14 +38,14 @@
 
                         @if (SignInManager.IsSignedIn(User))
                         {
-                            <!-- Display Logout if the user is signed in -->
+                            
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="@Url.Action("Logout", "Account")">Logout</a>
                             </li>
                         }
                         else
                         {
-                            <!-- Display Login as a button if the user is not signed in -->
+                           
                             <li class="nav-item">
                                 <a class="btn btn-primary text-light" href="@Url.Action("Login", "Account")">Login</a>
                             </li>

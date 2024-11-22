@@ -72,7 +72,10 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
         {
             return View();
         }
-
+        public IActionResult ApprovedClaims()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
