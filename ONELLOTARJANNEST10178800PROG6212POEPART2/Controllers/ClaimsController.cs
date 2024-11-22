@@ -130,6 +130,24 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
             stream.Position = 0;
             return File(stream, "application/pdf", "ApprovedClaimsReport.pdf");
         }
+        [HttpPost]
+        public IActionResult ShowClaimByLecturer(int lecturerId)
+        {
+            // Use raw SQL to fetch claims
+            var claims = _context.Claims
+                .FromSqlInterpolated($"SELECT * FROM Claims WHERE LecturerId = {lecturerId}")
+                .ToList();
+
+            if (claims == null || !claims.Any())
+            {
+                ViewData["Title"] = "No Claims Found";
+                return View(new List<Claim>());
+            }
+
+            ViewData["Title"] = "Claims for Lecturer";
+            return View("ShowClaimByLecturer", claims);
+        }
+
 
 
         ///Download file method

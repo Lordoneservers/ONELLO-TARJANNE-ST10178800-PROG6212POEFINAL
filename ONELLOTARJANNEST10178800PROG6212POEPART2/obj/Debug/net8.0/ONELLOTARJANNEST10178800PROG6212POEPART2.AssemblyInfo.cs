@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ONELLOTARJANNEST10178800PROG6212POEPART2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e98bb244163d1888e458c798ecace80443d3a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3a3cdae93b2422a79e193a4d04ac8bf7d932ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ONELLOTARJANNEST10178800PROG6212POEPART2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ONELLOTARJANNEST10178800PROG6212POEPART2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

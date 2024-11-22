@@ -50,12 +50,20 @@ namespace ONELLOTARJANNEST10178800PROG6212POEPART2.Controllers
         {
             return View();
         }
-        [AllowAnonymous]  // Allow anonymous access to the Access Denied page
+        [AllowAnonymous]  
         public IActionResult AccessDenied()
         {
             return View();
         }
         public IActionResult ClaimView()
+        {
+            return View();
+        }
+        public IActionResult ShowClaimByLecturer()
+        {
+            return View();
+        }
+        public IActionResult ViewClaimByLecturer()
         {
             return View();
         }

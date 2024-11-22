@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ONELLOTARJANNEST10178800PROG6212POEPART2.Models.Claim>
+
+@{
+    ViewData["Title"] = ViewData["Title"] ?? "Lecturer Claims";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model == null || !Model.Any())
+{
+    <p2>No claims found for the entered Lecturer ID.</p2>
+}
+else
+{
+    <p2>Claims found for Lecturer ID: @Model.FirstOrDefault()?.LecturerId</p2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Claim ID</th>
+                <th>Lecturer ID</th>
+                <th>Name</th>
+                <th>Rate</th>
+                <th>Hours</th>
+                <th>Claim Amount</th>
+                <th>Status</th>
+                <th>Claim Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.LecturerId</td>
+                    <td>@claim.Name</td>
+                    <td>@claim.Rate</td>
+                    <td>@claim.Hours</td>
+                    <td>@claim.ClaimAmount</td>
+                    <td>@claim.ClaimStatus</td>
+                    <td>@claim.ClaimDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -74,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/ShowClaimByLecturer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Q2xhaW1CeUxlY3R1cmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/Track.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Home/ViewClaimByLecturer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3Q2xhaW1CeUxlY3R1cmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/HR/Edit.cshtml]
@@ -122,12 +130,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/ShowClaimByLecturer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNob3dDbGFpbUJ5TGVjdHVyZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZ25VcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/Track.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRyYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/ViewClaimByLecturer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZpZXdDbGFpbUJ5TGVjdHVyZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/travi/source/repos/ONELLOTARJANNEST10178800PROG6212POEPART2/ONELLOTARJANNEST10178800PROG6212POEPART2/Views/Shared/_ValidationScriptsPartial.cshtml]

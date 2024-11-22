@@ -6,7 +6,7 @@
 <!-- Lecturer Role -->
 @if (User.IsInRole("Lecturer"))
 {
-    <form asp-controller="Home" asp-action="Post" method="post">
+    <form asp-controller="Home" asp-action="ViewClaimByLecturer" method="post">
         <button class="form-btn" type="submit">
             Lecturer Dashboard
         </button>
